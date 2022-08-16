@@ -1,0 +1,101 @@
+.landing_page{
+    margin-top: 0vw;
+}
+.upper{
+    background-color: rgb(197, 188, 155);
+    padding-top:2.5vw;
+}
+.image_sec .img-fluid{
+    width:95%;
+    height: 85%;
+}
+.slider_bar{
+    margin:0 1.6vw;
+}
+.text_sec .text{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    margin-top:0vw;
+    width:fit-content;
+    font-size: 1.4vw;
+}
+.text_sec .title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 450;
+    width:fit-content;
+}
+.text_sec{
+    padding-top: 2vw;
+    margin-left:5vw;
+}
+.text_sec .hero_button{
+    cursor: pointer;
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 0.55vw 1.3vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0.5vw 0;
+    font-weight: 300;
+    border:none;
+    border-radius:2vw;
+    background-color: #1D3557;
+    color: #F1FAEE;
+    transform: translate(50,-50);
+}
+.text_sec .hero_button:hover{
+    background: #E63946;
+    color:white;
+}
+.icon_grid{
+    background-color: white;
+    border-bottom:1px solid rgb(207, 207, 214);
+    margin:2vw 0vw;
+    /* box-shadow: 0px 1px 1px 0px rgb(196, 204, 196); */
+}
+.make_grid{
+    display: flex;
+    flex-direction: row;
+    margin:3.5vw 1.8vw;
+    gap:2vw;
+}
+.card_head{
+    font-size: 2.3vw;
+    font-weight: 490;
+}
+.box_card{  
+    box-shadow: 0 0 0 1.5px rgb(208, 218, 216);
+    transition: 0.25s ease-in;
+}
+.box_card:hover{
+    background-color:#00A896;
+    color: rgb(6, 15, 24);
+    cursor: pointer;
+}
+.icon_heading{
+    font-size: 3.6vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.gicon{
+    margin-right:0.7vw;
+    color:#23013f;
+}
+.card_body_head{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.card_body_sub{
+    display:flex;
+    flex-direction: column;
+}
+.card_body_sub p{
+    font-size: 1.3vw;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
